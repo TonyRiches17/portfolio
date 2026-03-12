@@ -61,7 +61,7 @@
 
 .navigation__link-background:hover {
   background-color: rgba(100, 100, 250, .3);
-  transform: skew(0);
+  transform: skew(0deg);
 }
 
 .navigation__link {

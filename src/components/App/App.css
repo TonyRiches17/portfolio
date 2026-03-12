@@ -1,26 +1,44 @@
+@keyframes moveleft {
+  0% {transform: translate(0px);}
+  5% {transform: translate(-20vw);}
+  10% {transform: translate(-40vw);}
+  15% {transform: translate(-60vw);}
+  20% {transform: translate(-100vw);}
+  21%, 100% {transform: translate(-101vw)};
+}
+
+@keyframes moveright {
+  0% {transform: translate(0px);}
+  5% {transform: translate(20vw);}
+  10% {transform: translate(40vw);}
+  15% {transform: translate(60vw);}
+  20% {transform: translate(100vw);}
+  21%, 100% {transform: translate(101vw)};
+}
+
 .app {
   background: linear-gradient(to right, rgb(200, 200, 250) 0%, rgb(255, 255, 255) 50%, rgb(200, 200, 250) 100%);
   position: relative;
-  z-index: 0;
+  z-index: -2;
 }
 
 .app__rectangles {
   display: flex;
   position: fixed;
-  left: 50%;
-  /* right: 50%; */
-  z-index: 1;
+  left: 47%;
+  z-index: -1;
 }
 
 .app__rectanglel {
-  width: 30px;
+  width: 20px;
   height: 100vh;
-  border: 1px solid red;
-
+  background-color: rgba(255, 255, 255, .6);
+  /* animation: moveleft 15s linear infinite; */
 }
 
 .app__rectangler {
-  width: 30px;
+  width: 20px;
   height: 100vh;
-  border: 1px solid red;
+  background-color: rgba(255, 255, 255, .6);
+  /* animation: moveright 15s linear infinite; */
 }
