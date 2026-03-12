@@ -22,6 +22,10 @@ function App() {
 
   return (
     <div className="app">
+      <div className="app__rectangles">
+        <div className="app__rectanglel"></div>
+        <div className="app__rectangler"></div>
+      </div>
       <Navigation isScrolled={isScrolled} />
       <Bio />
     </div>

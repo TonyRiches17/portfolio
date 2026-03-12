@@ -3,7 +3,9 @@ import "./Navigation.css";
 function Navigation({ isScrolled }) {
   return(
     <div className="navigation">
+      <div className="navigation__title-background">
     <h1 className="navigation__title">A Ri¢h Experience</h1>
+    </div>
     <div className="navigation__container">
       <p className="navigation__test"></p>
       <ul className={isScrolled ? "navigation__links_scrolled" : "navigation__links"}>
