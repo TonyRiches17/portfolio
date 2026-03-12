@@ -1,14 +1,23 @@
 import "./Bio.css";
+import profile from "../../assets/Thumbnail Profile pic.png";
 
 function Bio() {
   return(
     <div className="bio">
       <div className="bio__container">
         <h2 className="bio__title">Biography</h2>
-        <p className="bio__text">This is the biography of Rich the developer. A bunch of other information
-          that of course we will translate later. I just need to put something here to add some depth to the
-          site for now.
-        </p>
+        <p className="bio__text">Originally born and raised in Michigan. Took a liking to computers and programming
+        at an early age. One of the first attempts at coding was making custom games on the TI-82 calculator. Years
+        later, in 2008, he relocated to Atlanta, GA. Shortly after, he began a career in Law Enforcement. For about
+        14 years, he had worked in that capacity, forming and shaping new processes and procedures through the use
+        of technology and software applications using Microsoft Excel and VBA. During this tenure he attended
+        TripleTen&apos;s Software Engineering program and began developing applications utilizing <span className="bio__emboss"> HTML</span>, <span className="bio__emboss">CSS</span>, <span className="bio__emboss">React</span>, and <span className="bio__emboss">JavaScript</span>.
+           Since then, he has accelerated his learning and development by entering into deployment spaces
+        and delved into <span className="bio__emboss">MongoDB</span>, <span className="bio__emboss">Docker</span>, <span className="bio__emboss">PostgreSQL</span>, <span className="bio__emboss">Node.js</span>, <span className="bio__emboss">Express.js</span>, <span className="bio__emboss">Firebase</span>, <span className="bio__emboss">GCP</span>, <span className="bio__emboss">AWS</span>, and <span className="bio__emboss">Netlify</span>. With a yearning for expanding his knowledge on
+           all things developement, the sky is the limit.
+      </p>
+        <img src={profile} alt="Picture of Developer" className="bio__image" />
+        <p className="bio__name">Ri¢h</p>
       </div>
     </div>
   )
