@@ -1,24 +1,34 @@
+import { useRef } from "react";
 import "./Portfolio.css";
 import { cardInfo } from "../../../constants";
 
 function Portfolio() {
 
-  const moveRight = (evt) => {
-    evt.stopPropagation();
-    window.pageXOffset + 50;
-  };
+    const scrollRef = useRef(null);
+    const scrollAmount = 550;
+
+    const scrollLeft = () => {
+      if(scrollRef.current) {
+        scrollRef.current.scrollLeft -= scrollAmount;
+      }
+    };
+
+    const scrollRight = () => {
+      if(scrollRef.current) {
+        scrollRef.current.scrollLeft += scrollAmount;
+      }
+    };
 
   const toSite = (url) => {
     window.open(url, "_blank");
-    console.log("I clicked it");
   };
 
   return(
     <div id="portfolio" className="portfolio">
-      <button type="button" className="portfolio__buttonl">◁</button>
-      <button onClick={moveRight} type="button" className="portfolio__buttonr">▷</button>
+      <button onClick={scrollLeft} type="button" className="portfolio__buttonl">◁</button>
+      <button onClick={scrollRight} type="button" className="portfolio__buttonr">▷</button>
       <h2 className="portfolio__header">Portfolio</h2>
-      <div className="portfolio__container">
+      <div className="portfolio__container" ref={scrollRef}>
         {cardInfo.map((card, index) => (
           <ul key={index} className="portfolio__projects">
             <li onClick={() => toSite(card.url)} className="portfolio__project">

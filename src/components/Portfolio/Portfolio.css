@@ -18,7 +18,7 @@
 }
 
 .portfolio__buttonl:hover {
-  background-color: rgba(50, 0, 250, .5);
+  background-color: rgba(50, 0, 250, .9);
 }
 
 .portfolio__buttonr {
@@ -36,7 +36,7 @@
 }
 
 .portfolio__buttonr:hover {
-  background-color: rgba(50, 0, 250, .5);
+  background-color: rgba(50, 0, 250, .9);
 }
 
 .portfolio__header {
@@ -46,12 +46,13 @@
 
 .portfolio__container {
   display: flex;
-  column-gap: 30px;
+  column-gap: 50px;
   overflow-x: scroll;
-  padding: 0 50px;
+  padding: 0 130px;
   margin: 0;
   -webkit-overflow-scrolling: touch smooth;
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 
