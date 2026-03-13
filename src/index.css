@@ -1,3 +1,7 @@
+.root {
+  scroll-behavior: smooth;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

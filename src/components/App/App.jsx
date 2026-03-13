@@ -5,6 +5,8 @@ import Navigation from '../Navigation/Navigation'
 import Bio from "../Bio/Bio";
 import Scroll from "../Scroll/Scroll";
 import Portfolio from "../Portfolio/Portfolio";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,6 +34,8 @@ function App() {
       <Bio />
       <Scroll />
       <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   )
 }

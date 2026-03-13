@@ -1,18 +1,65 @@
 .portfolio {
+  position: relative;
+  z-index: -1;
+}
 
+.portfolio__buttonl {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(200, 200, 255, .5);
+  position: absolute;
+  top: 275px;
+  left: 10px;
+  padding: 5px 5px 0 0;
+  cursor: pointer;
+  transition: background .4s linear;
+}
+
+.portfolio__buttonl:hover {
+  background-color: rgba(50, 0, 250, .5);
+}
+
+.portfolio__buttonr {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(200, 200, 255, .5);
+  position: absolute;
+  top: 275px;
+  right: 10px;
+  padding: 5px 0 0 5px;
+  cursor: pointer;
+  transition: background .4s linear;
+}
+
+.portfolio__buttonr:hover {
+  background-color: rgba(50, 0, 250, .5);
+}
+
+.portfolio__header {
+  font-size: 50px;
+  text-align: center;
 }
 
 .portfolio__container {
   display: flex;
-  justify-content: center;
-  column-gap: 50px;
-  flex-wrap: wrap;
+  column-gap: 30px;
+  overflow-x: scroll;
+  padding: 0 50px;
+  margin: 0;
+  -webkit-overflow-scrolling: touch smooth;
+  scrollbar-width: none;
 }
+
 
 .portfolio__projects {
   list-style-type: none;
   cursor: pointer;
-
+  padding: 0;
+  margin: 0;
 }
 
 .portfolio__project {
@@ -49,7 +96,7 @@
 }
 
 .portfolio__project-technology:hover {
-  background-color: rgba(50, 50, 255, .5);
+  background-color: rgba(50, 0, 250, .5);
   color: #FFF;
 }
 

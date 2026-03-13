@@ -3,7 +3,7 @@ import profile from "../../assets/Thumbnail Profile pic.png";
 
 function Bio() {
   return(
-    <div className="bio">
+    <div id="bio" className="bio">
       <div className="bio__container">
         <h2 className="bio__title">Biography</h2>
         <p className="bio__text">Originally born and raised in Michigan. Took a liking to computers and programming

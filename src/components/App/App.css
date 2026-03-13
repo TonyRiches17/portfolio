@@ -19,26 +19,26 @@
 .app {
   background: linear-gradient(to right, rgb(200, 200, 250) 0%, rgb(255, 255, 255) 50%, rgb(200, 200, 250) 100%);
   position: relative;
-  z-index: -2;
+  z-index: 0;
 }
 
-/* .app__rectangles {
+.app__rectangles {
   display: flex;
   position: fixed;
   left: 47%;
   z-index: -1;
-} */
+}
 
 .app__rectanglel {
   width: 20px;
   height: 100vh;
   background-color: rgba(255, 255, 255, .6);
-  /* animation: moveleft 15s linear infinite; */
+  animation: moveleft 15s linear infinite;
 }
 
 .app__rectangler {
   width: 20px;
   height: 100vh;
   background-color: rgba(255, 255, 255, .6);
-  /* animation: moveright 15s linear infinite; */
+  animation: moveright 15s linear infinite;
 }
