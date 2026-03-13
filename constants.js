@@ -1,9 +1,18 @@
 import figma from "./src/assets/figma.png";
-import firebase from "./src/assets/firebase.png";
 import javascript from "./src/assets/java.png";
-import react from "./src/assets/react.png";
+import firebase from "./src/assets/firebase.png";
+import react from "./src/assets/react2.png";
 import vercel from "./src/assets/vercel.png";
+import css from "./src/assets/css.jpg";
 import vite from "./src/assets/vite.png";
+import github from "./src/assets/github.jpg";
+import aws from "./src/assets/aws.png";
+import docker from "./src/assets/docker.jpg";
+import html from "./src/assets/html.jpg";
+import mongodb from "./src/assets/mongodb.jpg";
+import postgresql from "./src/assets/postgresql.png";
+import gcp from "./src/assets/gcp.jpg";
+import typescript from "./src/assets/typescript.png";
 
 import theesthiecorner from "./src/assets/theesthiecorner.png";
 import spots from "./src/assets/spots.png";
@@ -15,7 +24,7 @@ import newsexplorer from "./src/assets/newsexplorer.png";
 import cluxnails from "./src/assets/cluxnails.png";
 import stjohns from "./src/assets/stjohns.png";
 
-const scrollpics = [figma, firebase, javascript, react, vercel, vite];
+const scrollpics = [figma, javascript, firebase, react, vercel, css, vite, github, aws, docker, html, mongodb, postgresql, gcp, typescript];
 
 const cardInfo = [
   {
