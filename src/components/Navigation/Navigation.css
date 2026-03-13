@@ -42,13 +42,14 @@
 }
 
 .navigation__links_scrolled {
-  width: 80%;
   display: flex;
   gap: 10px;
-  background-color: rgba(200, 200, 200, .8);
-  border-radius: 5px;
+  margin-left: auto;
   position: fixed;
-  top: 0;
+  top: 0px;
+  right: 15%;
+  /* background-color: rgba(200, 200, 200, .8); */
+  border-radius: 5px;
 }
 
 .navigation__link-background {
@@ -67,7 +68,13 @@
 .navigation__link {
   font-size: 20px;
   list-style-type: none;
+  border: 1px solid rgba(100, 100, 250);
+  background-color: rgba(200, 200, 250, 1);
   cursor: pointer;
   padding: 2px 7px;
 }
+
+/* .navigation__link:hover {
+  background-color: rgba(100, 100, 250, .3);
+} */
 

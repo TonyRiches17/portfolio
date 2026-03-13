@@ -4,12 +4,13 @@ import './App.css'
 import Navigation from '../Navigation/Navigation'
 import Bio from "../Bio/Bio";
 import Scroll from "../Scroll/Scroll";
+import Portfolio from "../Portfolio/Portfolio";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const scrolling = () => {
-    if(window.pageYOffset > 40) {
+    if(window.pageYOffset > 75) {
       setIsScrolled(true);
     } else {
       setIsScrolled(false);
@@ -30,6 +31,7 @@ function App() {
       <Navigation isScrolled={isScrolled} />
       <Bio />
       <Scroll />
+      <Portfolio />
     </div>
   )
 }

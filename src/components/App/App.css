@@ -22,12 +22,12 @@
   z-index: -2;
 }
 
-.app__rectangles {
+/* .app__rectangles {
   display: flex;
   position: fixed;
   left: 47%;
   z-index: -1;
-}
+} */
 
 .app__rectanglel {
   width: 20px;
