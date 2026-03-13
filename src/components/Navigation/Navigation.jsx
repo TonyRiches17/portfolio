@@ -10,9 +10,9 @@ function Navigation({ isScrolled }) {
     <div className="navigation__container">
       <p className="navigation__test"></p>
       <ul className={isScrolled ? "navigation__links_scrolled" : "navigation__links"}>
-        <li onClick={() => window.location.href="#bio"} className="navigation__link">Biography</li>
-        <li onClick={() => window.location.href="#portfolio"} className="navigation__link">Portfolio</li>
-        <li onClick={() => window.location.href="#contact"} className="navigation__link">Contact Me</li>
+        <li onClick={() => window.location.href="#bio"} className={isScrolled ? "navigation__link_scrolled" : "navigation__link"}>Biography</li>
+        <li onClick={() => window.location.href="#portfolio"} className={isScrolled ? "navigation__link_scrolled" : "navigation__link"}>Portfolio</li>
+        <li onClick={() => window.location.href="#contact"} className={isScrolled ? "navigation__link_scrolled" : "navigation__link"}>Contact Me</li>
       </ul>
     </div>
     </div>
