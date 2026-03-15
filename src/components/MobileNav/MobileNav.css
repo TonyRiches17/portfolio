@@ -1,0 +1,30 @@
+.mobilenav {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .movbilenav_off {
+    display: none;
+  }
+
+  .mobilenav__button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .mobilenav__button-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: transform .5s linear;
+  }
+
+  .mobilenav__button-image_clicked {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: rotate(-180deg);
+    transition: transform .5s linear;
+  }
+}

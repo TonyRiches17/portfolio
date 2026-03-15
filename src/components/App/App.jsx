@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import './App.css'
 import Navigation from '../Navigation/Navigation'
+import MobileNav from "../MobileNav/MobileNav";
 import Bio from "../Bio/Bio";
 import Scroll from "../Scroll/Scroll";
 import Portfolio from "../Portfolio/Portfolio";
@@ -31,6 +32,7 @@ function App() {
         <div className="app__rectangler"></div>
       </div>
       <Navigation isScrolled={isScrolled} />
+      <MobileNav isScrolled={isScrolled} />
       <Bio />
       <Scroll />
       <Portfolio />
