@@ -90,7 +90,32 @@
 }
 
 @media screen and (max-width: 650px) {
+  .navigation {
+    align-items: center;
+  }
+
   .navigation__title {
     font-size: 25px;
+  }
+
+  .navigation__links {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navigation__link {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navigation__link_scrolled {
+    display: none;
+  }
+
+  .navigation__links_scrolled {
+    display: none;
   }
 }

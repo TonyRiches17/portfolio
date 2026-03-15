@@ -106,3 +106,40 @@
   padding: 10px 30px;
   margin: 0;
 }
+
+@media screen and (max-width: 550px) {
+  .portfolio__container {
+    padding: 0;
+  }
+
+  .portfolio__project {
+    width: 95vw;
+    scroll-snap-align: center;
+  }
+
+  .portfolio__project-image {
+    width: 100%;
+  }
+
+  .portfolio__buttonl {
+    display: none;
+  }
+
+  .portfolio__buttonr {
+    display: none;
+  }
+
+  .portfolio__project-technology {
+    font-size: 10px;
+  }
+
+  .portfolio__container {
+    column-gap: 0px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .portfolio__project-description {
+    height: 90px;
+    text-align: center;
+  }
+}

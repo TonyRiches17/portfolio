@@ -41,6 +41,17 @@
   text-align: center;
 }
 
+@media screen and (max-width: 550px) {
+  .bio__container {
+    max-width: 95%;
+  }
+
+  .bio__text {
+    font-size: 12px;
+    padding: 10px 10px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .bio__image {
     max-width: 250px;

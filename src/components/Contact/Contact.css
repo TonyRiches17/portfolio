@@ -59,3 +59,9 @@
   background-color: rgba(50, 0, 250, 1);
   color: #EEE;
 }
+
+@media screen and (max-width: 550px) {
+  .form__textarea {
+    height: 70px;
+  }
+}

@@ -1,6 +1,6 @@
 import "./Footer.css";
 import linkedin from "../../assets/linkedin.png";
-import github from "../../assets/github.jpg";
+import github from "../../assets/github.png";
 import instagram from "../../assets/instagram.jpg";
 import logo from "../../assets/logo.png";
 

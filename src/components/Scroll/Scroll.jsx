@@ -6,7 +6,7 @@ function Scroll() {
   return(
     <div className="scroll">
       <div className="scroll__container">
-        <Marquee pauseOnHover={true} speed={25}>
+        <Marquee pauseOnHover={true} speed={32}>
         {scrollpics.map((pic, index) => (
           <ul key={index} className="scroll__image-container">
             <li className="scroll__image-list">
