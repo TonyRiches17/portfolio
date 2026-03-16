@@ -53,4 +53,9 @@
   .footer__link {
     font-size: 0;
   }
+
+  .footer__link-image {
+    height: 50px;
+    width: 50px;
+  }
 }

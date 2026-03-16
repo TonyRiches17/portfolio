@@ -33,7 +33,8 @@ function Contact() {
   return(
     <div id="contact" className="contact">
       <h2 className="contact__header">Contact Me</h2>
-      <form onSubmit={handleSubmit} netlify="true" name="contact" className="contact__form">
+      <form onSubmit={handleSubmit} method="POST" data-netlify="true" name="contact" className="contact__form">
+        <input type="hidden" name="form-name" value="contact" />
         <p className="contact__text">Please fill out form!</p>
         <label htmlFor="name" className="form__label">
           <input onChange={handleChange} value={formData.name} required name="name" id="name" placeholder="Name" type="text" className="form__input" />
