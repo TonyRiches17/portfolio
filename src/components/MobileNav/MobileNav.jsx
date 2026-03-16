@@ -15,10 +15,11 @@ const handleButtonClickToggle = (evt) => {
   return(
     <div className={isScrolled? "mobilenav" : "mobilenav_off"}>
       <Overlay buttonClicked={buttonClicked} />
-      <div className="mobilenav__border-hide">
       <button onClick={handleButtonClickToggle} className={buttonClicked ? "mobilenav__button_clicked" : "mobilenav__button"}>
         <img src={mobilenav} alt="Picture of a coin on the Mobil Navigation button" className={buttonClicked ? "mobilenav__button-image_clicked" : "mobilenav__button-image"} />
       </button>
+      <div className="mobilenav__border-hide">
+
       <div className={buttonClicked ? "mobilenav__links_clicked" : "mobilenav__links"}>
         <p className="mobilnav__link"></p>
         <p onClick={() => {window.location.href="#bio"; setButtonClicked(false);}} className="mobilenav__link">Biography</p>

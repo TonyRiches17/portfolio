@@ -20,7 +20,7 @@
     width: 200px;
     height: 200px;
     position: fixed;
-    top: 20px;
+    top: 30px;
     right: 25px;
     overflow: hidden;
   }
@@ -28,23 +28,25 @@
   .mobilenav__button {
     background-color: transparent;
     border: none;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    position: fixed;
+    top: 25px;
+    right: 25px;
     transform: translateX(0px);
     transition: transform .3s ease-in-out .5s;
     cursor: pointer;
+    z-index: +1;
   }
 
   .mobilenav__button_clicked {
     background-color: transparent;
     border: none;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    transform: translateX(-106px);
-    transition: transform .3s ease-in-out;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    transform: translateX(-120px);
+    transition: transform .2s ease-in-out;
     cursor: pointer;
+    z-index: +1;
   }
 
   .mobilenav__button-image {
@@ -65,7 +67,7 @@
 
   .mobilenav__links_clicked {
     width: 150px;
-    height: 175px;
+    height: 185px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -87,7 +89,7 @@
 
   .mobilenav__links {
     width: 150px;
-    height: 175px;
+    height: 185px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
