@@ -113,6 +113,8 @@
   .portfolio__project {
     width: 95vw;
     scroll-snap-align: center;
+  border: 2px solid #000;
+
   }
 
   .portfolio__project-image {
@@ -120,11 +122,25 @@
   }
 
   .portfolio__buttonl {
-    display: none;
+    width: 45px;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #000;
+    color: #000;
+    top: 525px;
+    left: 25px;
+    padding: 3px 6px 0 3px;
   }
 
   .portfolio__buttonr {
-    display: none;
+    width: 45px;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #000;
+    color: #000;
+    top: 525px;
+    right: 25px;
+    padding: 4px 0 3px 3px;
   }
 
   .portfolio__project-technology {
@@ -140,5 +156,55 @@
   .portfolio__project-description {
     height: 90px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .portfolio__buttonl {
+    top: 510px;
+  }
+
+  .portfolio__buttonr {
+    top: 510px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .portfolio__buttonl {
+    top: 500px;
+  }
+
+  .portfolio__buttonr {
+    top: 500px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .portfolio__buttonl {
+    top: 490px;
+  }
+
+  .portfolio__buttonr {
+    top: 490px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .portfolio__buttonl {
+    top: 480px;
+  }
+
+  .portfolio__buttonr {
+    top: 480px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .portfolio__buttonl {
+    top: 475px;
+  }
+
+  .portfolio__buttonr {
+    top: 475px;
   }
 }
