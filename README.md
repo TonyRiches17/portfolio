@@ -28,7 +28,7 @@ This project utilized React accompanied with Hooks to manage state.
 
 **Responsive Design**
 
-This project required functionality of the website at all resolutions to include more than 1400 pixels all the way down and adaptive to a screen size of 320 pixels.
+This project required functionality of the website at all resolutions to include more than 1400 pixels all the way down and adaptive to a screen size of 350 pixels.
 
 ---
 

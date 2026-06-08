@@ -23,6 +23,10 @@ import greenfindr from "./src/assets/greenfindr.png";
 import newsexplorer from "./src/assets/newsexplorer.png";
 import cluxnails from "./src/assets/cluxnails.png";
 import stjohns from "./src/assets/stjohns.png";
+import whoisthegoat from "./src/assets/whoisthegoat.png";
+import mikography from "./src/assets/mikography.png";
+import flashcardz from "./src/assets/flashcardz.png";
+import whoyouvotedfor from "./src/assets/whoyouvotedfor.png";
 
 const scrollpics = [figma, javascript, firebase, react, vercel, css, vite, github, aws, docker, html, mongodb, postgresql, gcp, typescript];
 
@@ -117,7 +121,45 @@ const cardInfo = [
     image: stjohns,
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "React", "Form Submission"],
   },
-
+  {
+    id: 9,
+    title: "Who is the G.O.A.T.",
+    type: "Application",
+    location: "Anywhere",
+    description: "This application allows users to pit athletes against each other to determine who is better.",
+    url: "https://whoisthegoat.netlify.app/",
+    image: whoisthegoat,
+    technologies: ["HTML", "CSS", "JavaScript", "React", "APIs"]
+  },
+  {
+    id: 10,
+    title: "Mikography",
+    type: "Service",
+    location: "Anywhere",
+    description: "This website displays the photographs of a photographer and allows users to purchase them.",
+    url: "https://mikography.netlify.app/",
+    image: mikography,
+    technologies: ["HTML", "CSS", "JavaScript", "React", "3rd Party Integragion"]
+  },
+  {
+    id: 11,
+    title: "Flash Cardz",
+    type: "Application",
+    location: "Anywhere",
+    description: "This application (with addition) allows users to input items to study in flash card format.",
+    url: "https://studyflashcardz.netlify.app",
+    image: flashcardz,
+    technologies: ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    id: 12,
+    title: "Who You Voted For",
+    type: "Website",
+    location: "Anywhere",
+    description: "This website allows users to search for a Representative in any U.S. State.",
+    image: whoyouvotedfor,
+    technologies: ["HTML", "CSS", "JavaScript", "React", "APIs"]
+  }
 ]
 
 export {scrollpics, cardInfo};
